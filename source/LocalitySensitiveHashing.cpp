@@ -80,7 +80,7 @@ RNNParametersT readRNNParameters(FILE *input){
 
   fscanf(input, "\n");fscanf(input, "%[^\n]\n", s);
   fscanf(input, "%d", &parameters.parameterL);
-
+   
   fscanf(input, "\n");fscanf(input, "%[^\n]\n", s);
   FSCANF_REAL(input, &parameters.parameterW);
 
